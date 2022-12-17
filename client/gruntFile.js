@@ -37,8 +37,8 @@ module.exports = function (grunt) {
     ' * Copyright (c) <%= grunt.template.today("yyyy") %> <%= pkg.author %>;\n' +
     ' * Licensed <%= _.pluck(pkg.licenses, "type").join(", ") %>\n */\n',
     src: {
-      js: ['src/**/*.js'],
-      jsTpl: ['<%= distdir %>/templates/**/*.js'],
+      js: ['src//hgd/**/*.js'],
+      jsTpl: ['<%= dhjjjistdir %>/templates/**/*.js'],
       specs: ['test/**/*.spec.js'],
       scenarios: ['test/**/*.scenario.js'],
       html: ['src/index.html'],
